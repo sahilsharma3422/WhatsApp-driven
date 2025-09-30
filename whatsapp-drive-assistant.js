@@ -1,6 +1,3 @@
-// WhatsApp-driven Google Drive Assistant
-// Main application file: index.js
-
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 const { google } = require('googleapis');
